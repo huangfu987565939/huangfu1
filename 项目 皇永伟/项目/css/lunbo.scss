@@ -1,0 +1,83 @@
+body,                                        
+ul,                                          
+li {                                         
+    padding: 0;                              
+    margin: 0;                               
+}                                            
+                                             
+li {                                         
+    list-style: none;                        
+}                                            
+                                             
+img {                                        
+    display: block;                          
+    border: none;                            
+}                                            
+                                             
+#box {                                       
+    position: relative;                      
+    width: 750px;                            
+    height: 450px;                           
+    overflow: hidden;
+    margin-left: 210px;
+    margin-top: 0px;                        
+}                                            
+                                             
+#box img {                                   
+    width: 750px;                            
+    height: 450px;                           
+}                                            
+                                             
+                                             
+#scrollImg li {                              
+    position: absolute;                      
+    opacity: 0;                              
+    filter:alpha(opactiy=0);                 
+}                                            
+                                             
+#focusList {                                 
+    position: absolute;                      
+    right: 50px;                             
+    bottom: 20px;                            
+}                                            
+                                             
+#focusList li {                              
+    float: left;                             
+    width: 20px;                             
+    height: 20px;                            
+    margin: 0 10px;                          
+    text-align: center;                      
+    line-height: 20px;                       
+    border-radius: 50%;                      
+    background: white;                       
+    color: red;                              
+    cursor: pointer;                         
+}                                            
+                                             
+#focusList li.cur {                          
+    background: red;                         
+    color: white;                            
+}                                            
+                                             
+#box .btns span {                            
+    position: absolute;                      
+    top: 50%;                                
+    margin-top: -25px;                       
+    width: 50px;                             
+    height: 50px;                            
+    text-align: center;                      
+    line-height: 50px;                       
+    background: black;                       
+    opacity: .5;                             
+    color: white;                            
+    font-size: 40px;                         
+    cursor: pointer;                         
+}                                            
+                                             
+#box .prev {                                 
+    left: 20px;                              
+}                                            
+                                             
+#box .next {                                 
+    right: 20px;                             
+}                                                                         

@@ -1,0 +1,94 @@
+#menu {
+  width: 200px;
+  height: 450px;
+  background: #434343;
+  z-index: 1;
+  position: relative; }
+  #menu li {
+    line-height: 30px;
+    padding-left: 12px; }
+    #menu li:hover {
+      background: #f6f6f6; }
+    #menu li:hover a {
+      color: #000; }
+    #menu li:hover .box {
+      display: block; }
+    #menu li a {
+      margin: 0 4px;
+      color: #FFFFFF; }
+      #menu li a:hover {
+        color: #f40; }
+    #menu li .box {
+      min-height: 410px;
+      height: auto !important;
+      height: 410px;
+      width: 958px;
+      position: absolute;
+      right: -1000px;
+      top: 0;
+      background: #F6F6F6;
+      display: none;
+      padding: 20px;
+      border: 1px solid #999999;
+      z-index: 888; }
+      #menu li .box .tips {
+        color: #FFFFFF;
+        padding: 0 4px;
+        background: #f67070;
+        font-size: 12px;
+        display: inline-block;
+        height: 20px;
+        line-height: 20px; }
+        #menu li .box .tips:hover {
+          color: #f31010; }
+      #menu li .box .title {
+        vertical-align: top;
+        display: inline-block;
+        width: 70px;
+        text-align: right;
+        font-size: 12px;
+        line-height: 32px;
+        color: #000000;
+        font-weight: bold; }
+      #menu li .box .tags {
+        vertical-align: top;
+        display: inline-block;
+        color: #666666;
+        font-size: 12px;
+        width: 680px;
+        line-height: 16px;
+        margin-left: 15px;
+        border-bottom: 1px solid #e0e0e0; }
+        #menu li .box .tags .tag {
+          padding: 0 10px;
+          margin: 10px 0;
+          border-left: 1px solid #E0E0E0;
+          color: #666666;
+          display: block;
+          float: left; }
+          #menu li .box .tags .tag:hover {
+            color: #f40; }
+      #menu li .box .imgBox {
+        box-sizing: border-box;
+        width: 198px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        padding: 0 14px 0 15px;
+        background: #fff; }
+        #menu li .box .imgBox .pic1 {
+          display: inline-block;
+          float: left;
+          width: 83px;
+          height: 45px;
+          margin: 12px 0; }
+        #menu li .box .imgBox .pic2 {
+          width: 168px;
+          height: 134px;
+          padding-top: 20px;
+          display: block;
+          float: left;
+          border-top: 1px solid #666666; }
+
+/*# sourceMappingURL=nav.css.map */

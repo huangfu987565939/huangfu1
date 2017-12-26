@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,MAAM,EAAC,MAAM;EACb,cAAS;IACR,MAAM,EAAC,aAAa;IACpB,UAAU,EAAC,IAAI;IACf,aAAa,EAAC,IAAI;IAClB,YAAY,EAAC,IAAI;IACjB,WAAW,EAAC,IAAI;IAChB,oBAAK;MACJ,OAAO,EAAC,MAAM;MACd,aAAa,EAAC,GAAG;MACjB,UAAU,EAAC,8CAA2C;MACtD,OAAO,EAAC,WAAW",
+"sources": ["../../sass/secondSass/second.scss"],
+"names": [],
+"file": "second.css"
+}

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#header {
+  width: 990px;
+  position: relative;
+  height: 120px;
+  vertical-align: middle;
+  z-index: 980;
+  margin: 0 auto; }
+  #header #logo {
+    margin: 18px 40px 0 0; }
+    #header #logo a {
+      margin: 0;
+      padding: 0;
+      font-size: 100%; }
+
+#fooder {
+  margin: 0 auto;
+  width: 990px;
+  height: 600px;
+  color: #888;
+  font-size: 14px;
+  border: solid 1px #888; }
+  #fooder form {
+    position: relative;
+    margin-left: 100px; }
+    #fooder form .span {
+      display: block;
+      width: 100px;
+      height: 36px;
+      border: solid 1px #ccc;
+      position: absolute;
+      top: 394px;
+      left: 265px;
+      text-align: center;
+      line-height: 36px; }
+    #fooder form input {
+      width: 288px;
+      height: 36px;
+      padding: 0 4px;
+      border: 1px solid #ccc;
+      margin: 40px 0;
+      font: normal 12px/1.5 Tahoma,"Simsun"; }
+    #fooder form input:last-child {
+      margin-left: 70px;
+      background-color: #ff5757;
+      border: 0 none;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font: 16px/40px "Microsoft YaHei";
+      height: 40px;
+      text-align: center;
+      width: 298px;
+      margin-top: 5px; }
+
+#regImg img:last-child {
+  position: absolute;
+  top: 138px;
+  left: 1106px; }
+
+p {
+  position: absolute;
+  top: 113px;
+  right: 215px; }
+  p a {
+    color: red;
+    text-decoration: none; }
+
+/*# sourceMappingURL=注册.css.map */
